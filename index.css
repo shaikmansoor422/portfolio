@@ -3,9 +3,7 @@ body{
 }
 .header{
     position: fixed;
-    border:2px #e2e0e6 solid ;
-    box-sizing: border-box;
-    margin: auto auto auto auto;
+    top: 0px;
     height: 100px;
     width: 100%;
     background-color: #90caf9;
@@ -13,7 +11,6 @@ body{
     border-radius: 10px;
     color: black;
     font-size: large;
-    font-size: xx-large;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial, sans-serif';
     text-align: center;
     padding: 10px;
@@ -25,7 +22,8 @@ p{
     font-size: small;
 }
 .nav{
-    position: absolute;
+    position: fixed;
+    top: 100px;
     left: 10px;
     right: 10px;
     border:1px  #e2e0e6 solid;
@@ -39,7 +37,6 @@ p{
 
 }
 .nav div{
-
     font-size: 9px;
     display: inline;
     height: 18px;
@@ -51,20 +48,19 @@ p{
     
 }
 .res{
-    margin-top: 25px;
+
+    margin-top: 125px;
 }
 section{
+    scroll-margin-top: 125px;
     border:5px white solid ;
     padding: 3px;
 }
 :target{
     background-color: #d0d1d1c4;
 }
-#lk{
+a{
     text-decoration: none;
     color: black;
 
-}
-#lk1{
-    color: blue;
 }
