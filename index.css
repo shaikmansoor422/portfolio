@@ -2,7 +2,7 @@ body{
     background-color: #e3f2fd;
 }
 .header{
-    position: relative;
+    position: fixed;
     border:2px #e2e0e6 solid ;
     box-sizing: border-box;
     margin: auto auto auto auto;
